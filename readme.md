@@ -1,59 +1,31 @@
-<h1>Retrieval Augmented Generation (RAG) with Streamlit, LangChain and Pinecone</h1>
+<h1>RAG-based Chatbot with LangChain, Ollama, and Pinecone</h1>
 
-<h2>Prerequisites</h2>
+<h2>Project Overview</h2>
+<p>Built an AI-powered chatbot with Streamlit UI, integrating Ollama LLM for natural language conversations.</p>
+<p>Implemented retrieval-augmented generation (RAG) by connecting LangChain with Pinecone vector database for semantic document search.</p>
+<p>Processed and indexed PDFs using a custom text-splitting + embedding pipeline with mxbai-embed-large.</p>
+<p>Designed system prompts for concise and context-aware responses.</p>
+<p>Enabled end-to-end document ingestion, similarity retrieval, and real-time Q&A deployment.</p>
+
+<h2>🛠️ Skills Demonstrated</h2>
 <ul>
-  <li>Python 3.11+</li>
+    <li><strong>Generative AI:</strong> Building RAG (Retrieval-Augmented Generation) pipelines</li>
+    <li><strong>LLM Integration:</strong> Working with Ollama, LLaMA models, and LangChain for custom embeddings & chat flows</li>
+    <li><strong>Vector Databases:</strong> Experience with Pinecone for similarity search and semantic retrieval</li>
+    <li><strong>Embeddings:</strong> Creating and using embeddings with Ollama embeddings (mxbai-embed-large) and integrating with vector stores</li>
+    <li><strong>Document Processing:</strong> Loading and chunking PDFs using LangChain loaders and text splitters</li>
+    <li><strong>Application Development:</strong> Deploying AI-powered chatbots with Streamlit</li>
+    <li><strong>Prompt Engineering:</strong> Designing system prompts for context-aware question answering</li>
+    <li><strong>Environment Management:</strong> Using .env files and dotenv for secure API handling</li>
+    <li><strong>APIs & Integration:</strong> Experience working with external APIs (Pinecone, Ollama)</li>
+    <li><strong>Python Development:</strong> Writing modular, production-ready Python code for AI workflows</li>
 </ul>
 
-<h2>Installation</h2>
+<h2>Installation & Setup</h2>
 <ol>
-  <li>
-    Clone the repository:
-    <pre>
+    <li>
+        Clone the repository:
+        <pre>
 git clone https://github.com/nivash2920/Offline_Chatbot-LangChain-Pinecone-Ollama-RAG.git
-    </pre>
-  </li>
-  <li>
-    Create a virtual environment:
-    <pre>python -m venv venv</pre>
-  </li>
-  <li>
-    Activate the virtual environment:
-    <pre>
-venv\Scripts\Activate   (on Windows)
-source venv/bin/activate  (on Mac/Linux)
-    </pre>
-  </li>
-  <li>
-    Install libraries:
-    <pre>pip install -r requirements.txt</pre>
-  </li>
-  <li>
-    Create accounts:
-    <ul>
-      <li>Pinecone: <a href="https://www.pinecone.io/">https://www.pinecone.io/</a></li>
-      <li>OpenAI API key: <a href="https://platform.openai.com/api-keys">https://platform.openai.com/api-keys</a></li>
-    </ul>
-  </li>
-  <li>
-    Add API keys to .env file:
-    <ul>
-      <li>Rename <code>.env.example</code> to <code>.env</code></li>
-      <li>Add your Pinecone and OpenAI API keys to the <code>.env</code> file</li>
-    </ul>
-  </li>
-</ol>
-
-<h2>Executing the scripts</h2>
-<ol>
-  <li>Open a terminal in VS Code</li>
-  <li>Run the scripts:
-    <pre>
-python sample_ingestion.py
-python sample_retrieval.py
-python ingestion.py
-python retrieval.py
-streamlit run chatbot_rag.py
-    </pre>
-  </li>
+    </li>
 </ol>
