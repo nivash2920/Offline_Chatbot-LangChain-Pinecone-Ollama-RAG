@@ -11,7 +11,6 @@
     Clone the repository:
     <pre>
 git clone https://github.com/nivash2920/Offline_Chatbot-LangChain-Pinecone-Ollama-RAG.git
-cd Offline_Chatbot-LangChain-Pinecone-Ollama-RAG
     </pre>
   </li>
   <li>
