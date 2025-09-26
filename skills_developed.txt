@@ -1,0 +1,37 @@
+🛠️ Skills to Add
+
+Generative AI: Building RAG (Retrieval-Augmented Generation) pipelines
+
+LLM Integration: Working with Ollama, LLaMA models, and LangChain for custom embeddings and chat flows
+
+Vector Databases: Experience with Pinecone for similarity search and semantic retrieval
+
+Embeddings: Creating and using embeddings with Ollama embeddings (mxbai-embed-large) and integrating with vector stores
+
+Document Processing: Loading and chunking PDFs using LangChain loaders and text splitters
+
+Application Development: Deploying AI-powered chatbots with Streamlit
+
+Prompt Engineering: Designing system prompts for context-aware question answering
+
+Environment Management: Using .env files and dotenv for secure API handling
+
+APIs & Integration: Experience working with external APIs (Pinecone, Ollama)
+
+Python Development: Writing modular, production-ready Python code for AI workflows
+
+📌 How to Frame the Project in Resume
+
+RAG-based Chatbot with LangChain, Ollama, and Pinecone
+
+Built an AI-powered chatbot with Streamlit UI, integrating Ollama LLM for natural language conversations.
+
+Implemented retrieval-augmented generation (RAG) by connecting LangChain with Pinecone vector database for semantic document search.
+
+Processed and indexed PDFs using custom text-splitting + embedding pipeline with mxbai-embed-large.
+
+Designed system prompts for concise and context-aware responses.
+
+Enabled end-to-end document ingestion, similarity retrieval, and real-time Q&A deployment.
+
+👉 Adding this project will show recruiters you can design, build, and deploy a full RAG pipeline, which is very strong for AI Engineer / Data Engineer / GenAI Engineer roles.
