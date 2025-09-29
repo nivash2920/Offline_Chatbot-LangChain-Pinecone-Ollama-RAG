@@ -54,7 +54,7 @@ vector_store = PineconeVectorStore(index=index, embedding=embeddings)
 # ------------------- INITIALIZE CHAT HISTORY -------------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
-    st.session_state.messages.append(SystemMessage("You are an assistant for question-answering tasks."))
+    st.session_state.messages.append(SystemMessage("You are a personal assistant who has all my professional details.."))
 
 # ------------------- DISPLAY CHAT HISTORY -------------------
 for message in st.session_state.messages:
